@@ -5,12 +5,13 @@ import javax.xml.bind.annotation.XmlTransient;
 
 public abstract class ParentC {
 
+    @XmlAttribute
     private int a;
 
+    @XmlAttribute
     private String b;
 
     @XmlTransient
-    @XmlAttribute
     public int getA() {
         return a;
     }
@@ -20,7 +21,6 @@ public abstract class ParentC {
     }
 
     @XmlTransient
-    @XmlAttribute
     public String getB() {
         return b;
     }
