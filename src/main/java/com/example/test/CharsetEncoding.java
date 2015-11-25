@@ -11,24 +11,24 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class CharsetEncoding {
 
     @XmlAttribute
-    private int ä;
+    private int aä;
 
     @XmlAttribute
-    private int ö;
+    private int aö;
 
-    public int getÄ() {
-        return ä;
+    public int getAä() {
+        return aä;
     }
 
-    public void setÄ(int ä) {
-        this.ä = ä;
+    public void setAä(int aä) {
+        this.aä = aä;
     }
 
-    public int getÖ() {
-        return ö;
+    public int getAö() {
+        return aö;
     }
 
-    public void setÖ(int ö) {
-        this.ö = ö;
+    public void setAö(int aö) {
+        this.aö = aö;
     }
 }
