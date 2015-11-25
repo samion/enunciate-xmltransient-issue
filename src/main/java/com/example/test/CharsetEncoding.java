@@ -13,11 +13,22 @@ public class CharsetEncoding {
     @XmlAttribute
     private int ä;
 
+    @XmlAttribute
+    private int ö;
+
     public int getÄ() {
         return ä;
     }
 
     public void setÄ(int ä) {
         this.ä = ä;
+    }
+
+    public int getÖ() {
+        return ö;
+    }
+
+    public void setÖ(int ö) {
+        this.ö = ö;
     }
 }
